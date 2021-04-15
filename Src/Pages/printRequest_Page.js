@@ -1,5 +1,6 @@
 function printRequest() {
-this.reqType_text = '#//input[@id="mat-input-2"]';
+this.reqType_text = '//input[@id="mat-input-1"]';
+this.select_reqType = '//span[@class="mat-option-text"]';
 this.nextStep_button = '#//button[@class="mat-raised-button mat-accent"]';
        //  mat-raised-button mat-accent  //button[@class='mat-raised-button mat-accent cdk-focused cdk-mouse-focused']//span[@class='mat-button-wrapper']
 
@@ -14,4 +15,4 @@ this.req_num_txt = '#page-mainheader[3]';
 
 
 };
-module.exports = new printRequest();//span[normalize-space()='CLICK HERE TO UPLOAD FILES']
+module.exports = new printRequest();
